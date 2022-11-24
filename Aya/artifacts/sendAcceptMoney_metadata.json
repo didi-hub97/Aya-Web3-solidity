@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "acceptMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "moneyCollected",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tellBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Aya/structure.sol": "sendAcceptMoney"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Aya/structure.sol": {
+			"keccak256": "0x608a3a3f0c9ded696551191c0c5e40fdc07042aa7a8b463c91810e5655e4b4d5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a0be2065cd65441a7ccf08a9fd1122fe0d72b87417a7c514874d7c6c6126e6cd",
+				"dweb:/ipfs/QmUdbqTRjzohtkjz73n5dwMNwYVkkLZcF2DrL7YPCDcwTk"
+			]
+		}
+	},
+	"version": 1
+}

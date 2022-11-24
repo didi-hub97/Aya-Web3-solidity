@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Aya/structure.sol": "HelloWorld"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Aya/structure.sol": {
+			"keccak256": "0x193a43d7509a90c1f1a1b4af0063f26260ba2221c1809dd5219f0c3bb226551f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://224d4f8b8b9b7334e1a021dda41692f53a3f7342453cfd99fd5e04ebf0e6baaa",
+				"dweb:/ipfs/QmPSYzagCGsHFaCCPfQFUeDZodCiEgk4UcqvnYAxFtKy5m"
+			]
+		}
+	},
+	"version": 1
+}
